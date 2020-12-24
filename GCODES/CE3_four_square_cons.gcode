@@ -21,8 +21,8 @@ M117 Auto bed-level GO!
 G29 ; Auto bed-level (BL-Touch)
 G92 E0 ; Reset Extruder
 M117 Getting the extruder up to temp!
-M104 S200 ; Set Extruder temperature
-M109 S200 ; Wait for Extruder temperature
+M104 S190 ; Set Extruder temperature
+M109 S190 ; Wait for Extruder temperature
 G1 Z1.0 F3000 ; move z up little to prevent scratching of surface
 G1 X0.1 Y20 Z0.3 F5000.0 ; move to start-line position
 M117 LET THE PURGE BEGIN!
@@ -452,7 +452,7 @@ G0 F6000 X124.763 Y109.489
 G1 F1200 X125.949 Y110.676 E27.89672
 G0 F6000 X125.949 Y110.11
 G1 F1200 X125.329 Y109.489 E27.91423
-M104 S200
+M104 S190
 G0 F6000 X125.329 Y108.749
 G1 F3000 E21.91423
 ;MESH:NONMESH
@@ -15713,5 +15713,5 @@ M104 S0
 ;SETTING_3 uildplate\\n\\n", "extruder_quality": ["[general]\\nversion = 4\\nnam
 ;SETTING_3 e = Super Quality #2\\ndefinition = creality_ender3\\n\\n[metadata]\\
 ;SETTING_3 nposition = 0\\nquality_type = super\\nsetting_version = 16\\ntype = 
-;SETTING_3 quality_changes\\n\\n[values]\\nmaterial_print_temperature = 200\\nre
+;SETTING_3 quality_changes\\n\\n[values]\\nmaterial_print_temperature = 190\\nre
 ;SETTING_3 traction_amount = 6\\nretraction_speed = 50\\n\\n"]}
